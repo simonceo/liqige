@@ -1,0 +1,325 @@
+body{
+	margin:0;
+	background:#fff;
+	font-size:12px;
+	color:#000000;
+	text-align: center;
+}
+
+ul{clear: left; padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px; list-style-type:none; }
+
+dl,dl dd,dl dt { margin:0px ;padding:0;}
+img{border:0;}
+a:link {color: #000; text-decoration:none;}
+a:visited {color: #000;text-decoration:none;}
+a:hover {color: #fc9204; text-decoration:underline;}
+
+#head{
+	width:100%;
+	height:75px;
+	background:url(../images/topbg.png);
+	border-top: 3px #000 solid;
+	}
+.top{
+	width:954px; margin: 0 auto;
+	}
+#ctt{
+	width:970px; margin: 0 auto; padding:5px 0;
+	}
+.logo{
+	float:left;
+	padding:10px;
+	width:270px;
+	} 
+.banner{
+	float:right;
+	width:650px;
+	text-align: left;
+	line-height:18px;
+        padding:12px 0px 0px;
+	}
+	
+#rtys{border-bottom: 1px #dddddd solid; background-color: white;
+	width: 100%;
+	line-height:35px;
+	background-image: url(../images/bg_btn_bg.png);
+	}
+.nav{width:953px;
+    margin: 0 auto;
+	text-align: left;
+	border-left: 1px #dad6cb solid;
+	font-size:14px;
+	line-height:34px;
+	height:34px;
+	font-weight:bold;}
+.nav ul { margin:0; padding:auto; list-style:none; }
+.nav li {
+	list-style-type:none;
+	float: left;
+	line-height:33px;
+	margin: 0;
+	background-color: white;
+	background-image: url(../images/item_bg.gif);
+	text-decoration: none;
+	border-left: 1px #fff solid;
+	border-right: 1px #dad6cb solid;}	
+.nav li a {
+	font-size: 14px;
+	padding: 0 20px;
+	display: block;
+}
+.nav li A:hover {
+	line-height:33px;
+	background-color: #F4FADF;
+	background-image: url(../images/item_bg_active.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	text-decoration: none;
+}
+.cd_cur {
+	line-height:33px;
+	background: url(../images/bg_btn_active.png)!important;
+}
+
+
+/* 主要内容1 */
+#top_1 {width:954px; margin:8px auto; height:300px}
+
+#focus{ /* 幻灯片 */
+	float:left;
+	width:269px;
+        height:300px;
+	background: url(../images/hd_bg.jpg) -1px 0;
+	border: 1px #999 solid;
+	padding:0px 0;
+	}
+.txt{line-height:23px}
+
+#new{
+	float:left;
+	width:400px;
+	padding-left:15px;
+	}
+#new span { font-size:12px; padding-left:10px; line-height:24px; color: #990000;}
+#new li {
+	background:url(../images/ico_c.gif) left no-repeat;
+	padding-left:10px;
+	line-height: 26px;
+	float:left;
+	display:block;
+	list-style-type:none;
+	text-align: left;
+	border-bottom:1px dashed #CDDDFF;
+	font-size:12px;
+	width:188px;
+	}
+.tt{
+	border-bottom: 1px #dddddd solid;
+	line-height:26px;
+	font-size:14px;
+	text-align: left;
+	}
+.tt b{
+	background-color:#f1f1f1;
+	padding:5px 15px 5px 15px;
+	}
+
+#hot {
+	float:right;
+	width:250px;
+	border: 1px #dddddd solid;
+	height:300px;
+	}
+.hottt {
+	line-height:26px;
+	background-image: url(../images/bg_mid.png);
+	text-align: left;
+	padding-left:8px;
+	}
+.hotls{
+	margin-top:10px;
+	}
+.hotls ul{
+	background: url(../images/hotl.gif);
+	height:242px;
+	width:220px;
+	}
+.hotls ul li{
+	line-height:24px;
+	text-align: left;
+	padding-left:35px;
+	}
+
+/* 主要内容2 */
+#top_2{
+	width:954px; margin: 0px auto;
+	}
+.main2 { width:954px; text-align:center; margin: 0px auto;}
+.fontlist {
+	margin-top:8px;
+	border:1px solid #ddd;
+	width:952px;
+	padding-bottom:6px;
+	height:auto
+	}
+.list {
+	margin-top:8px;
+	border-top:1px solid #ddd;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	width:952px;
+	padding-bottom:6px;
+	height:auto
+	}
+.list ul{padding-left:4px;}
+.list ul li{
+    border-bottom:1px dashed #CDDDFF;
+	background:url(ico_c.gif) no-repeat left;
+	padding-left:14px;
+	text-align: left;
+	line-height:230%;
+	float: left;
+	display: block;
+	width:174px;}
+#tu { height:auto}
+#tu ul{padding:5px 0 5px 0;}
+#tu ul li{ list-style:none;background:none;float: left;width:142px;display: block;text-align: center; margin-bottom:10px}
+#tu img { padding:3px; border:2px #ccc solid; width:120px; height:160px}
+.fontlist ul{padding-left:4px;}
+.fontlist ul li{
+    border-bottom:1px dashed #CDDDFF;
+	background:url(ico_c.gif) no-repeat left;
+	padding-left:14px;
+	text-align: left;
+	line-height:230%;
+	float: left;
+	display: block;
+	width:174px;}
+.pic_title {
+	float:left;
+	width:560px;
+	font-size:14px;
+	text-align: left;
+	padding-left:44px;
+	font-weight: bold;
+	background: url(../images/b_i2.gif);
+	height:24px;
+	padding-top:11px
+	}
+.tt_left {
+	float:left;
+	width:560px;
+	font-size:14px;
+	text-align: left;
+	padding-left:44px;
+	font-weight: bold;
+	background: url(../images/b_i2.gif) ;
+	height:35px;
+	}
+
+.more {
+	float:right;
+	width:338px;
+	text-align: right;
+	padding-top:1px;
+	background: url(../images/b_i2.gif) repeat-x -50px ;
+	height:34px; padding-right:10px; font-size:14px; font-weight:bold;
+	}
+.more img {padding:8px;border:0px;}
+.pic_tt {
+	float:right;
+	width:338px;
+	text-align: right;
+	padding-top:1px;
+	background: url(../images/b_i2.gif) repeat-x -50px ;
+	height:26px; 
+	padding-right:10px; 
+	font-size:14px; font-weight:bold;
+	padding-top:11px
+	}
+.pic_tt img {padding:8px;border:0px;}
+
+.rel_pic {
+        margin:0 auto;
+	border:1px solid #dddddd;
+	height:auto;
+	width:954px;
+	margin-top:10px;
+        clear:both;
+	}
+.rel_pic li {
+	background:url(ico_c.gif) left no-repeat;
+	padding-left:14px;
+	text-align: left;
+	line-height:210%;
+	float: left;
+	display: block;
+	width:221px;
+	}
+.pp {
+
+        text-align: center;
+	width:970px;
+	padding:5px auto 5px auto;
+	margin:0 auto;
+	}
+	
+.pp p img {padding:10px;}
+
+.page_c{}
+.page {text-align: center;margin: 5px auto;width:954px; padding:5px 0}
+.page_l {background-color: #F5F5F5;height: 33px;width: 954px;padding-top: 7px;border: 1px solid #DDD; float:left}
+.page li{ display:inline;}
+.page a,.page span {margin:0 4px 0 0; padding:4px 8px;  height: 24px; line-height:24px;border: 1px solid #DDD;white-space: nowrap;}
+.page a:hover {color: #BB0066;text-decoration: none;background-repeat: no-repeat;background-position: -120px -8px;border: 1px solid #A21419;}
+.page li.thisclass {padding:4px 8px;margin:0 7px 0 0; color: #FFF;background-color: #E60024;background-image: none;border: 1px solid #A21419;}
+.page li.thisclass a {color: #FFF; background: transparent none; border:0px; margin:0; padding:0;}
+.page table a{margin:0 4px 0 0;}
+
+#wz {
+	text-align:left;
+	font-size:14px;
+	width: 946px;
+	line-height:180%;
+	padding-left:0px;
+        padding:10px 0 10px 0;
+	margin:0 auto;
+	}
+
+#links{
+	margin: 8px auto 0;
+	width:947px;
+	background: url(../images/tuijian.gif);
+	line-height:23px;padding:3px;
+	border: 1px #dddddd solid;
+	text-align: left;
+	}
+#links li {
+	text-align:center; DISPLAY: inline; height:25px; line-height:25px; OVERFLOW: hidden; margin-right: 8px; margin-left:8px 
+}
+.plist { clear:both;  text-align:center; padding-top:5px; border-top:5px #ccc solid; width:947px; padding-right:5px;border-bottom:1px solid #ddd;border-left:1px solid #ddd;border-right:1px solid #ddd;}
+#footer{
+	margin-top:8px;
+	width:100%;
+	line-height:23px;
+	background:url(topbg.png) -3px 0;
+	padding:15px 0 15px 0;
+	}
+#tj{
+display:none
+}
+
+h1{color:#FF6317;font-size:20px;font-family:黑体;line-height:200%;margin:0; padding:0;}
+.clear{clear:both;height:0;width:0;line-height:0;font-size:0;visibility:hidden;}
+
+.myFocus-box {padding:4px;}/*自定义加的盒子*/
+/*=========mF_liuzg --绚丽切片风格========*/
+.mF_liuzg .pic li{position:relative;overflow:hidden;}
+.mF_liuzg .pic li p{width:100%;position:absolute;}
+.mF_liuzg .pic li p a{display:block;}/*图片和焦点图框架一样大小*/
+.mF_liuzg .txt li{position:absolute;z-index:2;bottom:0;line-height:34px;display:none;}
+.mF_liuzg .txt li a{display:block;position:relative;z-index:1;color:#fff;padding:2px 0 0 16px;font-size:14px;font-weight:bold;text-decoration:none;}/*标题样式*/
+.mF_liuzg .txt li span{display:block;position:absolute;top:0;left:0;background:#000;filter:alpha(opacity=40);opacity:0.4;}/*标题背景*/
+.mF_liuzg .num{position:absolute;z-index:3;bottom:6px;right:8px;color:#333;}
+.mF_liuzg .num li{float:left;width:22px;height:18px;position:relative;border:1px solid #333;line-height:18px;text-align:center;margin-right:3px;cursor:pointer;background:#eee;filter:alpha(opacity=70);opacity:0.7;}/*按钮样式*/
+.mF_liuzg .num li.current{background:#f60;color:#fff;font-weight:bold;height:20px;line-height:20px;top:-2px;filter:alpha(opacity=100);opacity:1;}
